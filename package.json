@@ -1,5 +1,5 @@
 {
-  "name": "projetofella",
+  "name": "projetofellas",
   "version": "1.0.0",
   "description": "projetinhoverao",
   "main": "index.js",
@@ -10,5 +10,14 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/waltjc/API-REST.git"
+  },
+  "bugs": {
+    "url": "https://github.com/waltjc/API-REST/issues"
+  },
+  "homepage": "https://github.com/waltjc/API-REST#readme"
 }
