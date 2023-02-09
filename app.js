@@ -10,7 +10,7 @@ app.get("/", (req, res) => {
 });
 
 mongoose.set("strictQuery", false);
-mongoose.connect('mongodb://localhost/projetinhofellas').then(() => {
+mongoose.connect('mongodb://127.0.0.1:27017/projetinhofellas').then(() => {
     console.log('Conexão estabelecida!')
 }).catch(() => {
     console.log('Conexão não estabelecida!');
